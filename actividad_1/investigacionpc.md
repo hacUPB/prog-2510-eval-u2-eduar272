@@ -204,7 +204,7 @@ Líneas de datos: Son los cables o conductores que realmente transportan la info
 Líneas de control: Determinan el flujo de los datos, indicando cuándo y cómo se deben enviar o recibir. Estos incluyen señales de sincronización y control de lectura/escritura.
 Líneas de dirección: Indican la ubicación específica en la memoria o el dispositivo al que se van a enviar los datos. Ayudan a que el sistema sepa a qué parte de la memoria o qué dispositivo acceder.
 
-## ¿que es el softwrad 
+## ¿que es el software
 
 El software es el conjunto de instrucciones, programas y aplicaciones que permiten a una computadora realizar tareas específicas. A diferencia del hardware, que se refiere a los componentes físicos de un sistema, el software es intangible, es decir, no tiene una forma física, pero es esencial para que el hardware funcione.
 
@@ -235,4 +235,125 @@ Como Python, Java, C++, JavaScript.
 Entornos de desarrollo integrado (IDE): Como Visual Studio, Eclipse, PyCharm.
 
 Compiladores y depuradores:Herramientas que convierten el código escrito en un lenguaje de programación en instrucciones que la computadora pueda ejecutar.
+
+# Funcionamiento del computador
+
+### a.
+
+#### ¿Qué procesos se llevan a cabo cuando se enciende una computadora?
+
+Cuando enciendes una computadora, se ejecuta una secuencia de procesos conocida como arranque o boot. Estos son los pasos principales:
+
+Encendido y POST (Power-On Self-Test):
+
+Al presionar el botón de encendido, la fuente de poder suministra energía a los componentes del hardware.
+
+La BIOS (Basic Input/Output System) o UEFI (Unified Extensible Firmware Interface) realiza una autoprueba (POST) para verificar que todos los componentes (RAM, CPU, discos duros, etc.) estén funcionando correctamente.
+
+Carga del BIOS/UEFI:
+
+La BIOS/UEFI busca el dispositivo de arranque (disco duro, SSD, USB, etc.) donde está almacenado el sistema operativo.
+
+Carga del sistema operativo:
+
+El cargador de arranque (como GRUB o Windows Boot Manager) carga el sistema operativo en la memoria RAM.
+
+El sistema operativo toma el control del hardware y prepara el entorno para el usuario.
+
+Inicio de sesión y entorno de usuario:
+
+El sistema operativo carga los servicios y programas necesarios.
+
+Finalmente, se muestra la pantalla de inicio de sesión o el escritorio, listo para ser usado.
+
+### b.
+
+#### ¿Qué sucede desde que ingreso un dato a través del teclado, hasta que veo el resultado de la operación en la pantalla?
+Este proceso involucra varios componentes de hardware y software. Aquí te explico los pasos:
+
+Entrada del dato:
+
+Presionas una tecla en el teclado.
+
+El teclado envía una señal eléctrica al controlador de teclado en la placa base.
+
+Procesamiento de la entrada:
+
+El controlador de teclado convierte la señal en un código de tecla (scancode) y lo envía al sistema operativo.
+
+El sistema operativo interpreta el código y lo convierte en un carácter (por ejemplo, la letra "A").
+
+Ejecución de la operación:
+
+Si el dato es parte de una operación (por ejemplo, en una calculadora), el sistema operativo envía la información al programa correspondiente.
+
+La CPU realiza los cálculos necesarios.
+
+Salida del resultado:
+
+El resultado se envía a la memoria RAM y luego a la tarjeta gráfica.
+
+La tarjeta gráfica convierte los datos en una señal que se envía al monitor.
+
+Finalmente, el monitor muestra el resultado en la pantalla.
+
+### c.
+
+#### ¿Cómo se codifican los datos internamente en el computador?
+Los datos en una computadora se codifican utilizando el sistema binario, que consiste en combinaciones de 0s y 1s (bits). Aquí te explico cómo funciona:
+
+Sistema binario:
+
+Todo dato (números, letras, imágenes, sonidos) se representa como una secuencia de bits.
+
+Un bit es la unidad más pequeña de información y puede tener dos valores: 0 o 1.
+
+Codificación de caracteres:
+
+Los caracteres (letras, números, símbolos) se codifican usando estándares como ASCII o Unicode.
+
+Por ejemplo, en ASCII, la letra "A" se representa como 01000001.
+
+Codificación de números:
+
+Los números enteros se codifican en binario puro.
+
+Los números decimales se codifican usando estándares como el IEEE 754 para coma flotante.
+
+Codificación de multimedia:
+
+Las imágenes se codifican como matrices de píxeles, donde cada píxel tiene un valor de color en binario.
+
+El audio se codifica como una secuencia de muestras digitales.
+
+### d. 
+
+#### ¿Cuáles son las unidades de medida de datos en un computador?
+Las unidades de medida de datos en una computadora se basan en el bit y el byte. Aquí te explico las más comunes:
+
+Bit (b):
+
+Es la unidad más pequeña de información. Puede ser 0 o 1.
+
+Byte (B):
+
+Un byte equivale a 8 bits.
+
+Es la unidad básica para medir el tamaño de archivos y la capacidad de almacenamiento.
+
+Unidades mayores:
+
+Kilobyte (KB): 1 KB = 1,024 bytes.
+
+Megabyte (MB): 1 MB = 1,024 KB.
+
+Gigabyte (GB): 1 GB = 1,024 MB.
+
+Terabyte (TB): 1 TB = 1,024 GB.
+
+Petabyte (PB): 1 PB = 1,024 TB.
+
+Unidades en sistemas de transmisión:
+
+En redes y comunicaciones, se usan unidades como Mbps (megabits por segundo) o Gbps (gigabits por segundo).
 
