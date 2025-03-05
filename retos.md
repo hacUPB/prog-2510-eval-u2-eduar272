@@ -69,7 +69,7 @@ imprimir C
 
 fin
 ```
-![alt text](image-2.png)
+![alt text](imagenes/image-2.png)
 
 ## 4.
 
@@ -255,10 +255,11 @@ Fin
 ## 9.
 
 Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
-![alt text](image-4.png)    
+
+ ![alt text](imagenes/image-4.png)
+
 ```
 Inicio
-
 
 Leer x
 
@@ -288,27 +289,27 @@ Fin
 ## 10.
 
 Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
-![alt text](image-5.png)
+![alt text](imagenes/image-5.png)
 ````
 Inicio
 
 mientras i desde 1 hasta n hacer:
 
-       factorial = 1
+    factorial = 1
 
-       Para j desde 1 hasta (2*i - 1) hacer
+    Para j desde 1 hasta (2*i - 1) hacer
 
-           factorial = factorial * j 
+        factorial = factorial * j 
 
-       Fin mientras
+    Fin mientras
 
-       termino = (x^(2*i - 1)) / factorial
+    termino = (x^(2*i - 1)) / factorial
 
-       resultado = resultado + (signo * termino)  
+    resultado = resultado + (signo * termino)  
 
-       signo = -signo  
+    signo = -signo  
 
-   Fin mientras
+Fin mientras
 
 escribir ≈ sin(x)
 
