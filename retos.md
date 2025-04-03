@@ -15,8 +15,17 @@ Para este codigo hay que hallar las diferencias que hay entre las coordenadas po
 ```
 inicio
 
-leer x1, x2
+leer x1, x2  
+leer y1, y2  
+hacer X = x2 - x1  
+hacer Y = y2 - y1  
+ hacer D =SQRT(X^2+Y^2)  
+imprimir D  
+fin  
 
+<<<<<<< HEAD
+![alt text](imagenes/image.png)
+=======
 leer y1, y2
 
 hacer X = x2 - x1
@@ -28,8 +37,9 @@ hacer D =SQRT(X^2+Y^2)
 imprimir D
 
 fin
+```
+![alt text](imagenes/image-7.png)
 
-![alt text](image.png)
 
 ## 2.
 
@@ -47,8 +57,12 @@ hacer IT = M/0.0254
 imprimir IT
 
 fin
+<<<<<<< HEAD
 
-![alt text](image-1.png)
+![alt text](imagenes/image-1.png)
+
+```
+![alt text](imagenes/image-1.png)
 
 ## 3.
 
@@ -69,7 +83,9 @@ imprimir C
 
 fin
 
-![alt text](image-2.png)
+```
+
+![alt text](imagenes/image-2.png)
 
 ## 4.
 
@@ -255,7 +271,7 @@ Fin
 ## 9.
 
 Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
-![alt text](image-4.png)    
+![alt text](imagenes/image-4.png)
 
 ```
 Inicio
@@ -288,10 +304,8 @@ Fin
 ## 10.
 
 Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
-![alt text](image-5.png)
-
-Inicio
-
+![alt text](imagenes/image-5.png)
+````
 mientras i desde 1 hasta n hacer:
 
     factorial = 1
@@ -312,5 +326,7 @@ Fin mientras
 
 escribir ≈ sin(x)
 
-Fin
+Fin  
+
+
 
